@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตารางเรียน</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>ตารางเรียน</h1>
+
+        <!-- เลือกชั้นปี -->
+        <div class="section">
+            <h2>เลือกชั้นปี</h2>
+
+            <div class="buttons" id="gradeButtons">
+                <button onclick="selectGrade('m4')">ม.4</button>
+                <button onclick="selectGrade('m5')">ม.5</button>
+                <button onclick="selectGrade('m6')">ม.6</button>
+            </div>
+        </div>
+
+        <!-- เลือกห้อง -->
+        <div class="section">
+            <h2>เลือกห้อง</h2>
+
+            <div class="buttons" id="roomButtons">
+                <button onclick="selectRoom(1)">1</button>
+                <button onclick="selectRoom(2)">2</button>
+                <button onclick="selectRoom(3)">3</button>
+                <button onclick="selectRoom(4)">4</button>
+                <button onclick="selectRoom(5)">5</button>
+                <button onclick="selectRoom(6)">6</button>
+                <button onclick="selectRoom(7)">7</button>
+                <button onclick="selectRoom(8)">8</button>
+                <button onclick="selectRoom(9)">9</button>
+                <button onclick="selectRoom(10)">10</button>
+            </div>
+        </div>
+
+        <!-- แสดงรูปตารางเรียน -->
+        <div class="schedule-container">
+    <h2>ตารางเรียน</h2>
+
+    <img
+        id="scheduleImage"
+        src=""
+        alt="กรุณาเลือกชั้นปีและห้อง"
+    >
+
+    <p id="message">
+        กรุณาเลือกชั้นปีและห้อง
+    </p>
+</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
